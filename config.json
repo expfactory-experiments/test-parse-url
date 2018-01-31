@@ -3,7 +3,7 @@
     "description":"Demo for displaying get parameters",
     "url":"https://expfactory-experiments.github.io/test-parse-url",
     "contributors": ["Vanessa Sochat"],
-    "exp_id": "test-parse-uri",
+    "exp_id": "test-parse-url",
     "name": "Parameters Demo",
     "template": "jspsych",
     "time": 1
