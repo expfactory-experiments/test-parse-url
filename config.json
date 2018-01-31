@@ -1,12 +1,10 @@
 {
-    "cognitive_atlas_task_id": "",
     "instructions":"Demo for displaying get parameters",
-    "description":"",
-    "url":"",
-    "contributors": [""],
-    "exp_id": "demo",
+    "description":"Demo for displaying get parameters",
+    "url":"https://expfactory-experiments.github.io/test-parse-url",
+    "contributors": ["Vanessa Sochat"],
+    "exp_id": "test-parse-uri",
     "name": "Parameters Demo",
-    "reference": [""],
     "template": "jspsych",
     "time": 1
 }
