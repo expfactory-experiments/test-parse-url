@@ -1,0 +1,6 @@
+exp_id,var_name,var_value,token
+test-parse-url,globalname,globalvalue,*
+test-parse-url,color,red,123
+test-parse-url,color,blue,456
+test-parse-url,words,at the thing,123
+test-parse-url,words,omg tacos,456

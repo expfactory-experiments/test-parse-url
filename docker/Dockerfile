@@ -15,8 +15,8 @@ ENV EXPFACTORY_BASE /scif/apps
 ADD startscript.sh /startscript.sh
 RUN chmod u+x /startscript.sh
 
-WORKDIR /opt 
-RUN git clone -b master https://www.github.com/expfactory/expfactory
+WORKDIR /opt
+RUN git clone -b add/variables https://www.github.com/expfactory/expfactory
 WORKDIR expfactory 
 RUN cp script/nginx.gunicorn.conf /etc/nginx/sites-enabled/default && \
     cp script/nginx.conf /etc/nginx/nginx.conf
@@ -42,7 +42,6 @@ RUN expfactory install https://www.github.com/expfactory-experiments/test-parse-
 LABEL EXPERIMENT_test-task /scif/apps/test-task
 WORKDIR /scif/apps
 RUN expfactory install https://www.github.com/expfactory-experiments/test-task
-
 
 ENTRYPOINT ["/bin/bash", "/startscript.sh"]
 EXPOSE 5000

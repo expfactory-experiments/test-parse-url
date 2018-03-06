@@ -1,0 +1,6 @@
+exp_id,var_name,var_value,token
+test-parse-url,globalname,globalvalue,*
+test-parse-url,color,red,017305e8-7eba-4d43-bc81-e95f5ceab0a8
+test-parse-url,color,blue,275ae6ea-5d33-499e-a3db-2bbcc4881ff4
+test-parse-url,words,at the thing,017305e8-7eba-4d43-bc81-e95f5ceab0a8
+test-parse-url,words,omg tacos,275ae6ea-5d33-499e-a3db-2bbcc4881ff4
