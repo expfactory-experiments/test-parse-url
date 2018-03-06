@@ -63,15 +63,15 @@ Starting Web Server
 
 If you go to your browser, enter the portal, and start the experiment, you will see a dummy experiment that doesn't do anything but print the variable name and values to the screen. In this case, we don't have any!
 
-![img/uri-params.png](img/uri-params.png)
+![img/url-params.png](img/url-params.png)
 
 This is actually a good opportunity to understand how this demo experiment is working. It's just taking variables from the URL and printing them out. You can define them as you please by typing key,value pairs into the bar: The first is separated from the url by a question mark (`?`)
 
-![img/uri-params1.png](img/uri-params1.png)
+![img/url-params1.png](img/url-params1.png)
 
 and subsequent variables are separated by way of an and `&`
 
-![img/uri-params2.png](img/uri-params2.png)
+![img/url-params2.png](img/url-params2.png)
 
 
 ## Specify a Variable File
