@@ -17,10 +17,10 @@ tag for the container was 3.1:
 docker pull vanessa/test-parse-url:v3.1 .
 ```
 
-For complete instructions for how to interact with specifying variables (such
+For complete documentation for how to interact with specifying variables (such
 as with the provided file [variables.tsv](variables.tsv)) please see our 
 [usage documentation](https://expfactory.github.io/expfactory/usage). We will provide
-a brief overview here.
+a brief tutorial here.
 
 ## Variable File
 Your file should be a comma separated value (csv) file, such as with the 
