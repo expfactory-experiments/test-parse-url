@@ -1,11 +1,20 @@
 # Building Instructions
 
 The Dockerfile here will build the experiment `test-parse-url` from the 
-repository, along with a simple test task. We do this to demonstrate
-how expfactory can read variables for an experiment from a custom text file.
+repository, along with a simple test task. You can also skip the build step
+here and use the container that has been [pre-built on Dockerhub](https://hub.docker.com/r/vanessa/test-parse-url/)
+We do this to demonstrate how expfactory can read variables for 
+an experiment from a custom text file.
 
 ```
 docker build -t vanessa/test-parse-url .
+```
+
+Note that for the writing of this tutorial, the version of expfactory and corresponding
+tag for the container was 3.1:
+
+```
+docker pull vanessa/test-parse-url:v3.1 .
 ```
 
 For complete instructions for how to interact with specifying variables (such
