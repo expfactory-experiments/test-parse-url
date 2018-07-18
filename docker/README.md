@@ -18,7 +18,7 @@ docker pull vanessa/test-parse-url:v3.1 .
 ```
 
 For complete documentation for how to interact with specifying variables (such
-as with the provided file [variables.tsv](variables.tsv)) please see our 
+as with the provided file [variables.csv](variables.csv)) please see our 
 [usage documentation](https://expfactory.github.io/expfactory/usage#participant-variables). We will provide
 a brief tutorial here.
 
